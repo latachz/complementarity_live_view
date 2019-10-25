@@ -1,0 +1,8 @@
+<div>
+    <form action="#" phx-submit="build">
+        <%= text_input :strand, :strand, placeholder: "ATGG" %>
+        <%= submit "Build", phx_disable_with: "Building..." %>
+    </form>
+    <div><%= @strand %></div>
+    
+</div>
